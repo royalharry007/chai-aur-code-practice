@@ -9,6 +9,7 @@ price =12 if age<18 else 8
 
 if day=="wednesaday":
     price = price-2
+    
 print(price)
 
 
