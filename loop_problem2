@@ -1,0 +1,13 @@
+# sum of the even natural numbers
+
+sum=0
+number = int(input("how many number you want "))
+
+for num in range(number):
+    num=int(input("enter the numbers "))
+    if num%2==0:
+        sum = sum+num
+        
+
+print(sum)
+    
